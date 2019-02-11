@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="prixitem" type="id">prixitem</item>
+    <item name="prixitem1" type="id">prixitem2</item>
+    <item name="prixitem2" type="id">prixitem2</item>
+    <item name="prixitem3" type="id">prixitem3</item>
+    <item name="prixitem4" type="id">prixitem4</item>
+    <item name="prixitem5" type="id">prixitem5</item>
+</resources>

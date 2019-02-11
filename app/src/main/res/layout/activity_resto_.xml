@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demotxt.myapp.recyclerview.Resto_Activity"
+    android:background="#fcfcfc">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bookthumbnail"
+                android:layout_width="364dp"
+                android:layout_height="164dp"
+                android:background="#2d2d2d"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rest_img_1" />
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Francescana"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Francescana" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="021459628"
+                    tools:text="021459628" />
+
+                <ImageView
+                    android:id="@+id/imageView_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/txtnum"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:layout_toLeftOf="@+id/txtnum"
+                    android:layout_toStartOf="@+id/txtnum"
+                    app:srcCompat="@drawable/phone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtadresse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Adresse Resto 1"
+                        tools:text="Adresse Resto 1" />
+
+                    <ImageView
+                        android:id="@+id/imageView_adresse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginRight="22dp"
+                        android:layout_toLeftOf="@+id/txtadresse"
+                        android:layout_toStartOf="@+id/txtadresse"
+                        app:srcCompat="@drawable/adresse" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtfacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="fb.com/Francescana"
+                    tools:text="fb.com/Francescana" />
+
+                <ImageView
+                    android:id="@+id/imageView_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/txtfacebook"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:layout_toLeftOf="@+id/txtfacebook"
+                    android:layout_toStartOf="@+id/txtfacebook"
+                    app:srcCompat="@drawable/facebook1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txttwitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Twitter/@Francescana"
+                    tools:text="Twitter/@Francescana" />
+
+                <ImageView
+                    android:id="@+id/imageView_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/txttwitter"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:layout_toLeftOf="@+id/txttwitter"
+                    android:layout_toStartOf="@+id/txttwitter"
+                    app:srcCompat="@drawable/twitter1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:layout_toLeftOf="@+id/txtmail"
+                    android:layout_toStartOf="@+id/txtmail"
+                    app:srcCompat="@drawable/mail" />
+
+                <TextView
+                    android:id="@+id/txtmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Francescana@gmail.com"
+                    tools:text="Francescana@gmail.com" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus."
+                android:textSize="12sp"
+                tools:text="Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="#F44336"
+                android:text="Visiter"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

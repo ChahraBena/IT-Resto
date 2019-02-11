@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ReserverItem"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Réserver" />
+        <item
+            android:id="@+id/PanierItem"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Panier" />
+        <item
+            android:id="@+id/MenuItem"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Menu" />
+        <item
+            android:id="@+id/FavoriteItem"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Favorite" />
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/appelItem"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="0559350618" />
+            <item
+                android:id="@+id/EmailItem"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="ec_bennani@esi.dz" />
+        </menu>
+    </item>
+
+</menu>

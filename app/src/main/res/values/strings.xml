@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">IT-Resto</string>
+    <string name="title_activity_second">second</string>
+    <string name="title_activity_meal_day">Plat du jour</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_registration">Réservation</string>
+    <string-array name="plats">
+        <item>La paela est un plat espagnol traditionnel qui contient Riz,Mais,Crevettes,safran,citron et des poids avec une sauce spéciale à notre restaurants
+        pour nos clients fidèles</item>
+    </string-array>
+    <string-array name="platname">
+        <item>Paela</item>
+    </string-array>
+    <string-array name="Date">
+        <item>20.04.2018</item>
+        <item>21.05.2018</item>
+        <item>22.06.2018</item>
+        <item>23.07.2018</item>
+        <item>24.08.2018</item>
+        <item>25.09.2018</item>
+        <item>26.10.2018</item>
+    </string-array>
+    <string-array name="prix">
+        <item>2500</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>900</item>
+        <item>800</item>
+        <item>5500</item>
+    </string-array>
+
+    <string name="title_activity_localisation">Map</string>
+    <string name="title_activity_photos">Photos</string>
+    <string name="title_activity_drawer__frag">Drawer_Frag</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

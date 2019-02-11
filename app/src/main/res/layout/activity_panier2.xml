@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Panier2">
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/Ecriture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:text="Panier"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="344dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        android:layout_marginLeft="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/nombreitem">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/namitem"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/namitem1"
+                    android:layout_marginBottom="10dp"
+                    android:text="Nom"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:layout_alignLeft="@+id/namitem1" />
+
+                <TextView
+                    android:id="@+id/nombreitem"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/namitem"
+                    android:layout_toRightOf="@+id/namitem"
+                    android:text="Nombre"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/nombreitem"
+                    android:layout_toRightOf="@+id/nombreitem"
+                    android:text="prix"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/namitem1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/namitem"
+                    android:layout_marginLeft="8dp"
+
+                    android:text="plat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nombreitem1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/namitem1"
+                    android:layout_toRightOf="@+id/namitem1"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/nombreitem1"
+                    android:layout_toRightOf="@+id/nombreitem1"
+                    android:text="300 da "
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/namitem2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/namitem1"
+                    android:layout_marginLeft="8dp"
+
+                    android:text="plat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nombreitem2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/namitem2"
+                    android:layout_toRightOf="@+id/namitem2"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/nombreitem2"
+                    android:layout_toRightOf="@+id/nombreitem2"
+                    android:text="300 da "
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/namitem3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/namitem2"
+                    android:layout_marginLeft="8dp"
+
+                    android:text="plat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nombreitem3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/namitem3"
+                    android:layout_toRightOf="@+id/namitem3"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/nombreitem2"
+                    android:text="300 da "
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/nombreitem2" />
+
+                <TextView
+                    android:id="@+id/namitem4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/namitem2"
+                    android:layout_marginLeft="8dp"
+
+                    android:text="plat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nombreitem4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/namitem3"
+                    android:layout_toRightOf="@+id/namitem3"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/nombreitem2"
+                    android:text="300 da "
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/nombreitem2" />
+
+                <TextView
+                    android:id="@+id/namitem5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/namitem4"
+                    android:layout_marginLeft="8dp"
+
+                    android:text="plat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nombreitem5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/namitem4"
+                    android:layout_toRightOf="@+id/namitem"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@id/prixitem5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/nombreitem4"
+                    android:text="300 da "
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/nombreitem4" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Nom"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Prénom"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="Numéro de carte"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prenom"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:id="@+id/Tel"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Tel"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        android:layout_marginLeft="32dp" />
+
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/color3"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/Prenom"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/color3"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/Carte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Nom"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/Carte"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:textColor="@color/color3"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Prenom"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/Nom2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPersonName"
+        android:text="+213"
+        android:textColor="@color/color3"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Carte"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/confirmer"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="Confirmer"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/annuler"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="16dp"
+        android:text="Annuler"
+        android:textColor="@color/colorPrimaryDark"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp" />
+
+</android.support.constraint.ConstraintLayout>
